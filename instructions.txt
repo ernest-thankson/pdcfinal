@@ -1,0 +1,12 @@
+INSTRUCTIONS
+
+ompmpi.c contains the code for the MPI+OpenMP code
+omp.c contains the OpenMP only code
+
+To run any c file, use
+
+gcc -fopenmp program_name.c -lm -lmpi -o output_file
+
+r1.csv and r2.csv contain the table to be joined
+
+
